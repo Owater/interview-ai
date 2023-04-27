@@ -310,6 +310,9 @@ export function SearchDialog() {
               </div>
             </div>
             <DialogFooter>
+            <div className="text-xs text-gray-500 mt-4 md:m-0 dark:text-gray-100">
+                * 回答由 AI 生成，不保证准确率，仅供参考学习！
+              </div>
               <Button type="submit" className="bg-red-500 block w-full md:w-auto md:inline-block">
                 提问
               </Button>
